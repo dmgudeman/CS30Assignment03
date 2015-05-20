@@ -17,7 +17,7 @@ elif [ $remindersNum -lt 11 ]; then
       read agendaDate
       echo please enter a description of the event
       read agendaDescription
-      echo -e $agendaDate ' \t ' $agendaDescription >> agenda
+      echo -e $agendaDate ' \t ' $agendaDescription >> ~/agenda
       let i=$i+1
    done
 
