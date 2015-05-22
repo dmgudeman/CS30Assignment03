@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read -p "input" inputNum
+compareNum='^[0-9]+$'
+if [[ "$inputNum" =~ $compareNum ]]&&[$iputNum <= 35];then
+  echo number
+  exit
+fi
+
+echo letter
+exit
